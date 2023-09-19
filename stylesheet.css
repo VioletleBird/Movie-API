@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #0b0c0d;
+    color: #fff;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #313036;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e3e4e4;
+}
+
+.search-btn {
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+.search-btn input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: #d1d0d3;
+    color: #1a1a1a;
+    border-radius: 5px;
+
+}
+
+.search-btn input:hover {
+    outline: 2px solid #0e6e86;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 90%;
+    margin: 0 auto 2rem;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+}
+
+.movie-card {
+    margin: 0.5rem 0.5rem;
+    width: 10rem;
+    background-color: #313036;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.movie-poster {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.6rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 160px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    font-weight: 600;
+}
+
+.star-empty {
+    color: #838383;
+    font-size: 12px;
+}
+
+.star-solid {
+    color: #fcc225;
+    font-size: 12px
+}
+
+/*The footer*/
+footer {
+    background-color: #313036;
+    margin-top: 1rem;
+    padding: 1rem 1.1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
